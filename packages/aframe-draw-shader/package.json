@@ -1,0 +1,32 @@
+{
+  "name": "aframe-draw-shader",
+  "version": "1.0.0",
+  "description": "A component to draw canvas for A-Frame VR.",
+  "main": "aframe-draw-shader.js",
+  "scripts": {
+    "build": "webpack --config ../../webpack.prod.js",
+    "start": "webpack serve --open --config ../../webpack.dev.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mayognaise/aframe.git"
+  },
+  "keywords": [
+    "aframe",
+    "aframe-component",
+    "aframe-shader",
+    "vr",
+    "webvr",
+    "draw",
+    "canvas"
+  ],
+  "author": "Mayo Tobita <tobimayo@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mayognaise/aframe/issues"
+  },
+  "homepage": "https://github.com/mayognaise/aframe/packages/aframe-draw-shader#readme",
+  "peerDependencies": {
+    "aframe": "^1.3.0"
+  }
+}
